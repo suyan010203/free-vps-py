@@ -1,5 +1,5 @@
 ### 一键安装
 
 ```bash
-bash <(curl -l -s https://raw.githubusercontent.com/bingyanbingyu1/free-vps-py/refs/heads/main/test.sh)
+bash <(curl -l -s https://raw.githubusercontent.com/suyan010203/free-vps-py/main/test.sh)
 ```
