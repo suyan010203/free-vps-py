@@ -668,7 +668,7 @@ if [ "$KEEP_ALIVE_HF" = "true" ]; then
     echo "            echo \"Hugging Face API 保活失败 (仓库: $HF_REPO_ID, Space API状态: \$status_code, Model API状态: \$status_code_model) - \$(date '+%Y-%m-%d %H:%M:%S')\" > keep_alive_status.log" >> keep_alive_task.sh
     echo "        fi" >> keep_alive_task.sh
     echo "    fi" >> keep_alive_task.sh
-    echo "    sleep 120" >> keep_alive_task.sh
+    echo "    sleep 1800" >> keep_alive_task.sh
     echo "done" >> keep_alive_task.sh
     chmod +x keep_alive_task.sh
     
